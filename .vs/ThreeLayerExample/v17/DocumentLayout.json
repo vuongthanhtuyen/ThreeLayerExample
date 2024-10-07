@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|d:\\sweetsoft\\selflearning\\code\\threelayerexample\\webformlayer\\administration\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|solutionrelative:webformlayer\\administration\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|d:\\sweetsoft\\selflearning\\code\\threelayerexample\\webformlayer\\administration\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|solutionrelative:webformlayer\\administration\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|d:\\sweetsoft\\selflearning\\code\\threelayerexample\\webformlayer\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|solutionrelative:webformlayer\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D1DE62F-05A9-48D3-AF15-B6C2C4DC001D}|DALLayer\\DALLayer.csproj|d:\\sweetsoft\\selflearning\\code\\threelayerexample\\dallayer\\categorydetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D1DE62F-05A9-48D3-AF15-B6C2C4DC001D}|DALLayer\\DALLayer.csproj|solutionrelative:dallayer\\categorydetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|d:\\sweetsoft\\selflearning\\code\\threelayerexample\\webformlayer\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +15,16 @@
       "RelativeMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|solutionrelative:webformlayer\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|d:\\sweetsoft\\selflearning\\code\\threelayerexample\\webformlayer\\author.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|solutionrelative:webformlayer\\author.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|d:\\sweetsoft\\selflearning\\code\\threelayerexample\\webformlayer\\administration\\postmanager.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|solutionrelative:webformlayer\\administration\\postmanager.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D1DE62F-05A9-48D3-AF15-B6C2C4DC001D}|DALLayer\\DALLayer.csproj|d:\\sweetsoft\\selflearning\\code\\threelayerexample\\dallayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D1DE62F-05A9-48D3-AF15-B6C2C4DC001D}|DALLayer\\DALLayer.csproj|solutionrelative:dallayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|d:\\sweetsoft\\selflearning\\code\\threelayerexample\\webformlayer\\administration\\postmanager.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|solutionrelative:webformlayer\\administration\\postmanager.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|d:\\sweetsoft\\selflearning\\code\\threelayerexample\\webformlayer\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771EB3C6-B6DC-4E1F-AE77-9A8980A31A65}|WebformLayer\\WebformLayer.csproj|solutionrelative:webformlayer\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,99 +34,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 577,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Default.aspx.cs",
-              "DocumentMoniker": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Administration\\Default.aspx.cs",
-              "RelativeDocumentMoniker": "WebformLayer\\Administration\\Default.aspx.cs",
-              "ToolTip": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Administration\\Default.aspx.cs",
-              "RelativeToolTip": "WebformLayer\\Administration\\Default.aspx.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T02:53:50.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Administration\\Default.aspx",
-              "RelativeDocumentMoniker": "WebformLayer\\Administration\\Default.aspx",
-              "ToolTip": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Administration\\Default.aspx",
-              "RelativeToolTip": "WebformLayer\\Administration\\Default.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-07T02:52:58.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryDetailController.cs",
-              "DocumentMoniker": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\DALLayer\\CategoryDetailController.cs",
-              "RelativeDocumentMoniker": "DALLayer\\CategoryDetailController.cs",
-              "ToolTip": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\DALLayer\\CategoryDetailController.cs",
-              "RelativeToolTip": "DALLayer\\CategoryDetailController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T02:48:17.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Site.Master",
-              "DocumentMoniker": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Site.Master",
-              "RelativeDocumentMoniker": "WebformLayer\\Site.Master",
-              "ToolTip": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Site.Master",
-              "RelativeToolTip": "WebformLayer\\Site.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-07T02:20:47.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Site.Master.cs",
-              "DocumentMoniker": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Site.Master.cs",
-              "RelativeDocumentMoniker": "WebformLayer\\Site.Master.cs",
-              "ToolTip": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Site.Master.cs",
-              "RelativeToolTip": "WebformLayer\\Site.Master.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T02:20:46.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Default.aspx",
-              "RelativeDocumentMoniker": "WebformLayer\\Default.aspx",
-              "ToolTip": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Default.aspx",
-              "RelativeToolTip": "WebformLayer\\Default.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-07T02:16:02.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Author.aspx",
-              "DocumentMoniker": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Author.aspx",
-              "RelativeDocumentMoniker": "WebformLayer\\Author.aspx",
-              "ToolTip": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Author.aspx",
-              "RelativeToolTip": "WebformLayer\\Author.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-07T02:15:04.315Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -145,15 +46,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\DALLayer\\User.cs",
-              "RelativeDocumentMoniker": "DALLayer\\User.cs",
-              "ToolTip": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\DALLayer\\User.cs",
-              "RelativeToolTip": "DALLayer\\User.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Site.Master",
+              "DocumentMoniker": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Site.Master",
+              "RelativeDocumentMoniker": "WebformLayer\\Site.Master",
+              "ToolTip": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Site.Master",
+              "RelativeToolTip": "WebformLayer\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-07T04:09:44.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Site.Master.cs",
+              "RelativeDocumentMoniker": "WebformLayer\\Site.Master.cs",
+              "ToolTip": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Site.Master.cs",
+              "RelativeToolTip": "WebformLayer\\Site.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T02:14:44.302Z",
+              "WhenOpened": "2024-10-07T04:09:42.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "WebformLayer\\Default.aspx.cs",
+              "ToolTip": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Default.aspx.cs",
+              "RelativeToolTip": "WebformLayer\\Default.aspx.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwBEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:55:05.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Default.aspx",
+              "RelativeDocumentMoniker": "WebformLayer\\Default.aspx",
+              "ToolTip": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Default.aspx",
+              "RelativeToolTip": "WebformLayer\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-07T03:52:55.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostManager.aspx.cs",
+              "DocumentMoniker": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Administration\\PostManager.aspx.cs",
+              "RelativeDocumentMoniker": "WebformLayer\\Administration\\PostManager.aspx.cs",
+              "ToolTip": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Administration\\PostManager.aspx.cs",
+              "RelativeToolTip": "WebformLayer\\Administration\\PostManager.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:50:59.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostManager.aspx",
+              "DocumentMoniker": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Administration\\PostManager.aspx",
+              "RelativeDocumentMoniker": "WebformLayer\\Administration\\PostManager.aspx",
+              "ToolTip": "D:\\SweetSoft\\SelfLearning\\Code\\ThreeLayerExample\\WebformLayer\\Administration\\PostManager.aspx",
+              "RelativeToolTip": "WebformLayer\\Administration\\PostManager.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-07T03:50:48.475Z",
               "EditorCaption": ""
             }
           ]

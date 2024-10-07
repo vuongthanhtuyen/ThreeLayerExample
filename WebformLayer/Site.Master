@@ -206,6 +206,28 @@
         <%: Scripts.Render("assets/WebPage/lib/owlcarousel/owl.carousel.min.js") %>
         <%: Scripts.Render("assets/WebPage/js/main.js") %>
     </asp:PlaceHolder>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Lấy URL hiện tại
+        var currentUrl = window.location.pathname;
+
+        // Lấy tất cả các thẻ <a> trong navbar có class 'nav-link' hoặc 'dropdown-item'
+        var navLinks = document.querySelectorAll('.navbar-nav .nav-link, .dropdown-item');
+
+        // Lặp qua tất cả các liên kết
+        navLinks.forEach(function (link) {
+            // Kiểm tra nếu href của link trùng với URL hiện tại
+            if (link.getAttribute('href') === currentUrl) {
+                // Xóa class 'active' khỏi tất cả các liên kết khác
+                navLinks.forEach(function (l) { l.classList.remove('active'); });
+
+                // Thêm class 'active' cho liên kết hiện tại
+                link.classList.add('active');
+            }
+        });
+    });
+</script>
+
 
 
 </body>

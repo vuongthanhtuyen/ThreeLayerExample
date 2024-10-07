@@ -72,11 +72,8 @@ namespace WebformLayer.Administration
                 pagindex = 1; // Gán giá trị mặc định nếu hdPageIndex.Value không hợp lệ
             }
 
-
-            useCollection = PostManagerBLL.GetAllPostAndAuthorName(10, pagindex, txtSearch.Text, null, out totalPost);
-
+            useCollection = PostManagerBLL.GetAllPostAndAuthorName(12, pagindex, txtSearch.Text, null, out totalPost);
             GetPaging(totalPost, pagindex);
-
 
             lbltotal.Text = totalPost.ToString() + " bài viết";
             GridViewPost.DataSource = useCollection;

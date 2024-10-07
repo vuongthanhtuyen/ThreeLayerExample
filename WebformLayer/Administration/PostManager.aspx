@@ -16,9 +16,47 @@
 
 </asp:Content>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="Content1" runat="server">
+
     <style>
         input, select, textarea {
             max-width: none;
+        }
+
+        .modal-content-editPost {
+            background-color: white;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        input, select, textarea {
+            max-width: none;
+        }
+
+        ul.pagination li {
+            cursor: pointer;
+        }
+
+        .custom-container {
+            position: relative;
+            display: inline-block; /* Đảm bảo nó chỉ chiếm không gian cần thiết */
+            text-align: center; /* Căn giữa nội dung bên trong */
+        }
+
+        .custom-image {
+            display: block; /* Để loại bỏ khoảng trống bên dưới hình ảnh */
+            margin: 0 auto; /* Căn giữa hình ảnh */
+        }
+
+        .custom-emoji {
+            position: absolute;
+            bottom: 20px; /* Điều chỉnh vị trí theo chiều dọc */
+            right: 15px; /* Điều chỉnh vị trí theo chiều ngang */
+            background-color: #fff; /* Màu nền cho biểu tượng */
+            border-radius: 50%; /* Làm cho nó hình tròn */
+            padding: 5px; /* Thêm một chút khoảng cách */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Thêm bóng cho biểu tượng */
         }
     </style>
 
@@ -249,44 +287,7 @@
     <asp:HiddenField ID="hdfEditCategoryPostId" runat="server" />
 
 
-    <style>
-        .modal-content-editPost {
-            background-color: white;
-            margin: auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%;
-        }
 
-        input, select, textarea {
-            max-width: none;
-        }
-
-        ul.pagination li {
-            cursor: pointer;
-        }
-
-        .custom-container {
-            position: relative;
-            display: inline-block; /* Đảm bảo nó chỉ chiếm không gian cần thiết */
-            text-align: center; /* Căn giữa nội dung bên trong */
-        }
-
-        .custom-image {
-            display: block; /* Để loại bỏ khoảng trống bên dưới hình ảnh */
-            margin: 0 auto; /* Căn giữa hình ảnh */
-        }
-
-        .custom-emoji {
-            position: absolute;
-            bottom: 20px; /* Điều chỉnh vị trí theo chiều dọc */
-            right: 15px; /* Điều chỉnh vị trí theo chiều ngang */
-            background-color: #fff; /* Màu nền cho biểu tượng */
-            border-radius: 50%; /* Làm cho nó hình tròn */
-            padding: 5px; /* Thêm một chút khoảng cách */
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Thêm bóng cho biểu tượng */
-        }
-    </style>
 
 
 
@@ -355,8 +356,6 @@
             <ul class="pagination">
 
                 <asp:Literal ID="ltlPaging" runat="server"></asp:Literal>
-
-
             </ul>
         </nav>
     </div>

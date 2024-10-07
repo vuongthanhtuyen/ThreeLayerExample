@@ -54,24 +54,51 @@
         <!-- Carousel End -->
 
         <!-- Service Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-4">
-
-                    <asp:Literal ID="ltlpostList" runat="server">
-
-                    </asp:Literal>
-
-                    
-
-                </div>
-            </div>
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-4 d-flex justify-content-center align-items-center">
+            <asp:Literal ID="ltlpostList" runat="server">
+            </asp:Literal>
         </div>
-        <!-- Service End -->
+    </div>
+</div>
 
+        <asp:HiddenField ID="hdPageIndex" runat="server" />
+<div class="d-flex justify-content-center align-items-center" style="width: 100%; position: relative;">
+    <nav aria-label="...">
+        <ul class="pagination">
+            <asp:Literal ID="ltlPaging" runat="server"></asp:Literal>
+        </ul>
+    </nav>
+</div>
 
-        <!-- About End -->
+    <asp:Button ID="hiddenButtonPaging" runat="server" Text="Hidden Button" OnClick="HiddenButton_Click" Style="display: none;" />
 
     </main>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
 
+        $(".page-link").click(function () {
+            var pageIndex = 0;
+            if ($(this).attr('id') === 'pagePrivious') {
+                pageIndex = parseInt($("#<%= hdPageIndex.ClientID %>").val()) - 1;
+                $("#<%= hdPageIndex.ClientID %>").val(pageIndex); // Cập nhật giá trị
+                $("#<%= hiddenButtonPaging.ClientID %>").click(); // Gọi sự kiện click trên nút ẩn
+                return; // Ngừng hàm sau khi đã thực thi
+            }
+            if ($(this).attr('id') === 'pageNext') {
+                pageIndex = parseInt($("#<%= hdPageIndex.ClientID %>").val()) + 1;
+                $("#<%= hdPageIndex.ClientID %>").val(pageIndex); // Cập nhật giá trị
+                $("#<%= hiddenButtonPaging.ClientID %>").click(); // Gọi sự kiện click trên nút ẩn
+                return; // Ngừng hàm sau khi đã thực thi
+            }
+            else {
+                pageIndex = $(this).data('index');
+                $("#<%= hdPageIndex.ClientID %>").val(pageIndex); // Cập nhật giá trị
+                $("#<%= hiddenButtonPaging.ClientID %>").click(); // Gọi sự kiện click trên nút ẩn
+                return; // Ngừng hàm sau khi đã thực thi
+            }
+        });
+
+    </script>
 </asp:Content>
