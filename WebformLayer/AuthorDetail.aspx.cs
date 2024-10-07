@@ -1,4 +1,5 @@
 ﻿using BLLayer.Manager;
+using BLLayer.Pulish;
 using DALLayer;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,14 @@ namespace WebformLayer
             }
         }
 
-        private void Binding()
+        protected void ShowAll_Click(object sender, EventArgs e)
+        {
+            Binding(50);
+        }
+
+
+
+        private void Binding(int pageSize=5)
         {
             int userId = string.IsNullOrEmpty(Request.QueryString["id"]) ? 0 : int.Parse(Request.QueryString["id"]);
             if (userId > 0)
@@ -27,9 +35,18 @@ namespace WebformLayer
                 var user = UserManagerBLL.UserGetById(userId);
                 List<PostAndAuthorName> postList = new List<PostAndAuthorName>();
                 int totalRow = 0;
-                postList = PostManagerBLL.GetAllPostAndAuthorName(5, 1, user.FullName, null, out totalRow);
-                int totalView = postList.Select(x => x.ViewCount).Sum();
+                postList = PostManagerBLL.GetAllPostAndAuthorName(pageSize, 1, user.FullName, null, out totalRow);
+                int totalView = AuthorPublishBLL.GetViewCoutByIdAuthor(userId);
                 string postListShow = "";
+
+                lblAdress.Text = "Địa chỉ: " + user.Address;
+                lblDecription.Text = user.Description;
+                lblEmail.Text = user.Email;
+                lblFullName.Text = user.FullName;
+                lblTongBaiViet.Text = totalRow.ToString();
+                lblTongLuotXem.Text = totalView.ToString();
+                userImage.ImageUrl = "Administration/Upload/UploadedAvatars/" + user.AvataUrl;
+
                 if (postList.Count > 0)
                 {
                     foreach (var post in postList)
@@ -52,13 +69,6 @@ namespace WebformLayer
                                 </a>");
                     }
                     lbtPost.Text = postListShow;
-                    lblAdress.Text = "Địa chỉ: " + user.Address;
-                    lblDecription.Text = user.Description;
-                    lblEmail.Text = user.Email;
-                    lblFullName.Text = user.FullName;
-                    lblTongBaiViet.Text = totalRow.ToString();
-                    lblTongLuotXem.Text = totalView.ToString();
-                    userImage.ImageUrl = "Administration/Upload/UploadedAvatars/"+ user.AvataUrl;
                 }
             }
         }

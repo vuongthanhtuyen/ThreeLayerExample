@@ -1,0 +1,8 @@
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\DALLayer\bin\Release\DALLayer.dll
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\DALLayer\bin\Release\DALLayer.pdb
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\DALLayer\bin\Release\SubSonic.dll
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\DALLayer\obj\Release\DALLayer.csproj.AssemblyReference.cache
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\DALLayer\obj\Release\DALLayer.csproj.CoreCompileInputs.cache
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\DALLayer\obj\Release\DALLayer.csproj.Up2Date
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\DALLayer\obj\Release\DALLayer.dll
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\DALLayer\obj\Release\DALLayer.pdb

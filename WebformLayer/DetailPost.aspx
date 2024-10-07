@@ -1,7 +1,10 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="DetailPost.aspx.cs" Inherits="WebformLayer.DetailPost" %>
-
+<asp:Content ID="CssContent" ContentPlaceHolderID="contentAsset" runat="server">
+     <link href="~/assets/css/DetailPost.css" rel="stylesheet" />
+</asp:Content>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
     <style>
 
         .categories ul {

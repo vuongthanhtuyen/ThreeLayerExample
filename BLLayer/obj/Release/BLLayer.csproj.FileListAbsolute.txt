@@ -1,0 +1,10 @@
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\BLLayer\bin\Release\BLLayer.dll
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\BLLayer\bin\Release\BLLayer.pdb
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\BLLayer\bin\Release\DALLayer.dll
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\BLLayer\bin\Release\SubSonic.dll
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\BLLayer\bin\Release\DALLayer.pdb
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\BLLayer\obj\Release\BLLayer.csproj.AssemblyReference.cache
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\BLLayer\obj\Release\BLLayer.csproj.CoreCompileInputs.cache
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\BLLayer\obj\Release\BLLayer.csproj.Up2Date
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\BLLayer\obj\Release\BLLayer.dll
+D:\SweetSoft\SelfLearning\Code\ThreeLayerExample\BLLayer\obj\Release\BLLayer.pdb

@@ -15,13 +15,13 @@ namespace WebformLayer
     {
 
         /// <summary>
-        /// ltlpostList control.
+        /// PostListUserControl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ltlpostList;
+        protected global::WebformLayer.UserControlPublish.PostList PostListUserControl;
 
         /// <summary>
         /// hdPageIndex control.
@@ -33,13 +33,13 @@ namespace WebformLayer
         protected global::System.Web.UI.WebControls.HiddenField hdPageIndex;
 
         /// <summary>
-        /// ltlPaging control.
+        /// PagingUserControl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ltlPaging;
+        protected global::WebformLayer.UserControlPublish.PagingUser PagingUserControl;
 
         /// <summary>
         /// hiddenButtonPaging control.

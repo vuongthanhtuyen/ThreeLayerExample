@@ -1,5 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="CategoryPulish.aspx.cs" Inherits="WebformLayer.CategoryPulish" %>
 
+<%@ Register Src="~/UserControlPublish/PostList.ascx" TagPrefix="uc1" TagName="PostList" %>
+
+
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -9,9 +12,7 @@
                     <asp:Literal ID="CategoryName" runat="server"></asp:Literal>
                 </h4>
                 <div class="row g-4">
-                    <asp:Literal ID="ltlpostList" runat="server">
-
-                    </asp:Literal>
+                    <uc1:PostList runat="server" ID="PostListUserControl" />
                 </div>
             </div>
         </div>

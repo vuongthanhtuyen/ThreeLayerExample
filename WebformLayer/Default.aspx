@@ -1,5 +1,10 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebformLayer._Default" %>
 
+<%@ Register Src="~/UserControlPublish/PostList.ascx" TagPrefix="uc1" TagName="PostListUserControl" %>
+<%@ Register Src="~/UserControlPublish/PagingUser.ascx" TagPrefix="uc1" TagName="PagingUser" %>
+
+
+
 
 
 
@@ -57,23 +62,28 @@
 <div class="container-xxl py-5">
     <div class="container">
         <div class="row g-4 d-flex justify-content-center align-items-center">
-            <asp:Literal ID="ltlpostList" runat="server">
-            </asp:Literal>
+            <%--<asp:Literal ID="ltlpostList" runat="server">
+            </asp:Literal>--%>
+
+
+                <uc1:PostListUserControl runat="server" ID="PostListUserControl" />
+
+
         </div>
     </div>
 </div>
 
-        <asp:HiddenField ID="hdPageIndex" runat="server" />
+
+                <asp:HiddenField ID="hdPageIndex" runat="server" />
 <div class="d-flex justify-content-center align-items-center" style="width: 100%; position: relative;">
     <nav aria-label="...">
         <ul class="pagination">
-            <asp:Literal ID="ltlPaging" runat="server"></asp:Literal>
+            <uc1:PagingUser runat="server" id="PagingUserControl" />
         </ul>
     </nav>
 </div>
 
     <asp:Button ID="hiddenButtonPaging" runat="server" Text="Hidden Button" OnClick="HiddenButton_Click" Style="display: none;" />
-
     </main>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script>

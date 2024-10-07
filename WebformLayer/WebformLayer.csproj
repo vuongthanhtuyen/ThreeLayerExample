@@ -2179,6 +2179,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="UserControlPublish\PagingUser.ascx" />
     <Content Include="UserControlPublish\PostList.ascx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -2321,6 +2322,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlPublish\PagingUser.ascx.cs">
+      <DependentUpon>PagingUser.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControlPublish\PagingUser.ascx.designer.cs">
+      <DependentUpon>PagingUser.ascx</DependentUpon>
     </Compile>
     <Compile Include="UserControlPublish\PostList.ascx.cs">
       <DependentUpon>PostList.ascx</DependentUpon>

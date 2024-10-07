@@ -78,7 +78,8 @@
                      
                             <div class="d-flex justify-content-between align-items-center mb-4 text-body">
                                 <p class="lead fw-normal mb-0">Bài viết của tác giả</p>
-                                <p class="mb-0"><a href="#!" class="text-muted">Show all</a></p>
+                                <p class="mb-0">
+                                    <asp:Button ID="ShowAll" CssClass="text-muted" runat="server" Text="Xem thêm" OnClick="ShowAll_Click" />
                             </div>
                             <div class="row g-2">
                                 <asp:Literal ID="lbtPost" runat="server"></asp:Literal>

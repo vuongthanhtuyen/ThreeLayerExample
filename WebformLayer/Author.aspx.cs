@@ -1,4 +1,6 @@
-﻿using BLLayer.Pulish;
+﻿using BLLayer.Manager;
+using BLLayer.Pulish;
+using DALLayer;
 using SweetCMS.DataAccess;
 using System;
 using System.Collections.Generic;
@@ -15,12 +17,18 @@ namespace WebformLayer
         {
             if (!IsPostBack)
             {
-                PageLoad();
+                BindGrid();
             }
         }
 
-        private void PageLoad()
+
+        private void BindGrid(int pagindex = 1)
         {
+            if (!int.TryParse(hdPageIndex.Value, out pagindex))
+            {
+                pagindex = 1; // Gán giá trị mặc định nếu hdPageIndex.Value không hợp lệ
+            }
+
             List<User> authors = new List<User>();
             authors = AuthorPublishBLL.GetAllAuthor();
             string listshow = "";
@@ -44,6 +52,13 @@ namespace WebformLayer
             }
 
             ltlProfile.Text = listshow;
+
+            //PagingUserControl.GetPaging(authors.Count, pagindex);
+
+        }
+        protected void HiddenButton_Click(object sender, EventArgs e)
+        {
+            BindGrid();
         }
     }
 }
